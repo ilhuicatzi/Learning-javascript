@@ -20,6 +20,7 @@ function CodeString({code}:{code:string}) {
           <Tooltip>
             <TooltipTrigger asChild>
               <button
+                aria-label="button copy code"
                 onClick={copyToClipboard}
                 className="bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-zinc-700 p-1 rounded-md"
               >

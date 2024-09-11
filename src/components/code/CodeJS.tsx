@@ -30,6 +30,7 @@ function CodeJs({ code }: Props) {
           <Tooltip>
             <TooltipTrigger asChild>
               <button
+                aria-label="button copy code"
                 onClick={copyToClipboard}
                 className="absolute bg-zinc-200 hover:bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-zinc-700 p-1 rounded-md"
               >

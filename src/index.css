@@ -61,6 +61,7 @@
     @apply border-border;
   }
   body {
+    font-family: 'Open Sans Variable', sans-serif;
     @apply bg-background text-foreground;
   }
 }
